@@ -1,9 +1,12 @@
 import React from 'react';
+import Lit from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Logo.svg'
+import Nav from './Nav.js';
 
 const Header = () => {
   return (
     <header>
-      <img src="/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/LittleLemon.png" alt = "Little Lemon Logo" />
+      <img src={Lit} alt = "Little Lemon Logo" />
+    <Nav />
     </header>
   );
 };
