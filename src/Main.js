@@ -4,18 +4,18 @@ import Bruchetta from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/
 const Main = () => {
     return (
         <main>
-            <div>
+            <div class="textMain">
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
-            <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-            <button>Reserve a Table</button>
+            <p>We are a family owned Mediterranean <br></br>restaurant,focused on traditional recipes <br></br>served with a modern twist.</p>
+            <button className='button-yellow'>Reserve a Table</button>
             </div>
-            <img id='mainPic' src={Bruchetta} alt="Bruchetta" width= '427px' height= '463px' style={{borderRadius: '10px'}}/>
+            <img id='mainPic' src={Bruchetta} alt="Bruchetta" width= '430px' height= '440px' style={{borderRadius: '10px', margin:'1rem', border:'2px solid #000'}}/>
         </main>
 
     );
 };
 
-
+/*position:'absolute', top:'20px', left:'900px',*/
 
 export default Main;
