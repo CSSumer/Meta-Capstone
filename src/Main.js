@@ -10,7 +10,7 @@ const Main = () => {
             <p>We are a family owned Mediterranean <br></br>restaurant,focused on traditional recipes <br></br>served with a modern twist.</p>
             <button className='button-yellow'>Reserve a Table</button>
             </div>
-            <img id='mainPic' src={Bruchetta} alt="Bruchetta" width= '430px' height= '440px' style={{borderRadius: '10px', margin:'1rem', border:'2px solid #000'}}/>
+            <img id='mainPic' src={Bruchetta} alt="Bruchetta" width= '430px' height= '440px' style={{borderRadius: '10px', margin:'1rem', border:'2px solid #000', objectFit:'cover'}}/>
         </main>
 
     );
