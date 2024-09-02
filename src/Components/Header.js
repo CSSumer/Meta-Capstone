@@ -1,5 +1,5 @@
 import React from 'react';
-import Lit from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Logo.svg'
+import Lit from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/Logo.svg'
 import Nav from './Nav.js';
 
 const Header = () => {

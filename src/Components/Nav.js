@@ -1,27 +1,27 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="/">HOME</a>
+                    <Link to="/">HOME</Link>
                 </li>
                 <li>
-                    <a href="/about">ABOUT</a>
+                    <Link to="/about">ABOUT</Link>
                 </li>
                 <li>
-                    <a href="/menu">MENU</a>
+                    <Link to="/menu">MENU</Link>
                 </li>
                 <li>
-                    <a href="/reservations">RESERVATIONS</a>
+                    <Link to="/booking">RESERVATIONS</Link>
                 </li>
                 <li>
-                    <a href="/contact">ORDER ONLINE</a>
+                    <Link to="/orderOnline">ORDER ONLINE</Link>
                 </li>
                 <li>
-                    <a href="/contact">LOGIN</a>
+                    <Link to="/login">LOGIN</Link>
                 </li>
             </ul>
         </nav>

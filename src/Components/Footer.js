@@ -1,5 +1,5 @@
 import React from 'react';
-import FootPic from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/LitLemonLogo.png";
+import FootPic from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/LitLemonLogo.png";
 
 const Footer = () => {
     return (

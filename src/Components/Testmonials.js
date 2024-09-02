@@ -1,8 +1,8 @@
 import React from 'react';
-import Bruchetta from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/restauranfood.jpg"
-import Salad from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/greek salad.jpg';
-import Bruchet from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/bruchetta.svg';
-import Des from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/lemon dessert.jpg';
+import Bruchetta from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/restauranfood.jpg"
+import Salad from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/greek salad.jpg';
+import Bruchet from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/bruchetta.svg';
+import Des from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/lemon dessert.jpg';
 
 
 const Testmonials = () => {

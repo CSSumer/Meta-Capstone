@@ -1,15 +1,16 @@
 import React from 'react';
-import Salad from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/greek salad.jpg';
-import Bruchet from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/bruchetta.svg';
-import Des from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/lemon dessert.jpg';
-import IconDish from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Dish icon.svg';
+import Salad from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/greek salad.jpg';
+import Bruchet from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/bruchetta.svg';
+import Des from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/lemon dessert.jpg';
+import IconDish from '/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/Dish icon.svg';
+import {Link} from 'react-router-dom';
 
 const Cards = () => {
     return (
         <>
         <div className='order'>
         <h1>This weeks specials</h1>
-        <button className="button-yellow" style={{marginLeft:'27rem'}}> Online Menu </button>
+        <button className="button-yellow" style={{marginLeft:'27rem'}}> <Link to="/menu" className='link'>Online Menu </Link></button>
         </div>
 
         <div className="cards-container">

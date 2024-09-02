@@ -1,9 +1,11 @@
 import React from 'react';
-import PicA from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/restaurant chef B.jpg";
-import PicB from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Mario and Adrian b.jpg";
-const About = () => {
+import Header from './Header';
+import PicA from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/restaurant chef B.jpg";
+import PicB from "/Users/sumersinghkang/Desktop/Final Project/littleleomon/src/Asset/Mario and Adrian b.jpg";
+const AboutUs = () => {
     return (
         <>
+        <Header />
         <div className="about">
         <div class="textMain">
             <h1>Little Lemon</h1>
@@ -20,6 +22,6 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutUs;
 
 /* <img id='mainPic' src={Bruchetta} alt="Bruchetta" width= '430px' height= '440px' style={{borderRadius: '10px', margin:'1rem', border:'2px solid #000'}}/>*/

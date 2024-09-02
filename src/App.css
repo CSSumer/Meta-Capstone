@@ -30,6 +30,11 @@ nav a {
   color: inherit;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -247,6 +252,18 @@ h3 {
   padding-top: 5rem;
   padding-right: 5rem; /* Adjust padding as needed */
 
+}
+
+.booking {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 7rem;
 }
 
 footer {
