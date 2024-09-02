@@ -59,6 +59,111 @@ main {
   /*position: relative;*/
 }
 
+@media (max-width: 768px) {
+
+  .container-foot {
+    display: flex;
+    flex-wrap: wrap; /* Wrap elements to a new line on smaller screens */
+    justify-content: center;
+    align-items: center;
+  }
+  .image-column-foot {
+    padding: 1rem;
+  }
+  .image-column-foot img {
+    margin-left: 0; /* Adjust margin as needed */
+  }
+  .text-column {
+    width: 100%; /* Make columns full width on smaller screens */
+    padding: 1rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    padding: 1rem;
+  }
+
+  .image-container img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .testimonials-container {
+    display: flex;
+    flex-direction: column; /* Stack testimonials vertically on smaller screens */
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .testimonial-card {
+    width: 90%; /* Make cards full width on smaller screens */
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .testimonial-cards {
+    gap: 1rem; /* Reduce gap between cards */
+    flex-wrap: wrap;
+  }
+
+  .img-review img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards to a new line on smaller screens */
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 100%; /* Make cards full width on smaller screens */
+    padding: 1rem;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Styles for smaller screens */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #495E57;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    /*position: relative;*/
+  }
+
+  #mainPic {
+    max-width: 90%;
+    height: auto;
+  }
+  .textMain {
+    padding-right: 0;
+    right: 0;
+  }
+  /* Other adjustments as needed */
+}
+
 .textMain {
   justify-content: center;
   align-items: center;
